@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>Example 7 - Trackball camera controls</title> 
+  <style>
+    body{
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #stats {  /* Align stats top-left */
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+  </style> 
+  </head>
+  <body>
+  <!-- JavaScript libraries -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+  <script src="assets/libs/TrackballControls.js"></script>
+   <!-- Javascript code that runs our Three.js examples --> 
+  <script>
+    // once everything is loaded, we run our Three.js stuff.
+    $(function () {
+
+      var stats = initStats();
+
+      // create a scene, that will hold all our elements such as objects, cameras and lights.
+      var scene = new THREE.Scene();
+
+      // create a camera, which defines where we're looking at.
+      var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+      // create a render and set the size
+      var renderer = new THREE.WebGLRenderer
+
+
+    // light
+/*
+       var spotLight = new THREE.SpotLight( 0xffffff );
+      spotLight.position.set(-40,80,0);
+
+      spotLight.castShadow = true;
+
+      spotLight.shadowDarkness = 0.5;
+    
+      spotLight.shadow;
+      //definizione ombra
+      spotLight.shadowMapWidth = 1024;
+      spotLight.shadowMapHeight = 1024;
+
+
+      spotLight.shadowCameraNear = 5;
+      spotLight.shadowCameraFar = 300;
+      spotLight.shadowCameraFov = 50;
+      spotLight.distance=200;
+      spotLight.angle=0.75;
+      spotLight.exponent=5;
+*/
+
+      var directionalLight = new THREE.DirectionalLight( 0xcccccc, 0.4 );
+      directionalLight.position.set( 0, 1, 0 );
+     
+      scene.add( directionalLight );
+
+
+      var dirLightHelper=new THREE.DirectionalLightHelper(directionalLight);
+      scene.add(dirLightHelper);
+
+
+     // var spotLightHelper=new THREE.SpotLightHelper(spotLight);
+     // scene.add(spotLightHelper);
+
+      var axisHelper = new THREE.AxisHelper( 500 );
+scene.add( axisHelper );
+
+
+      // create trackball controls
+      var trackballControls = new THREE.TrackballControls(camera);
+
+      renderer.setClearColor(new THREE.Color(0x777777, 0.5));
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.shadowMapEnabled=true;
+
+      // create the ground plane
+      var planeGeometry = new THREE.PlaneGeometry(200, 100, 1, 1);
+      var planeMaterial = new THREE.MeshLambertMaterial({color: 0xffffff});
+      var plane = new THREE.Mesh(planeGeometry, planeMaterial);
+
+
+      // rotate and position the plane
+      plane.rotation.x = -0.5 * Math.PI;
+      //plane.position.set(15,0,0);
+      plane.receiveShadow=true;
+      // add the plane to the scene
+      scene.add(plane);
+      //spotLight.target=plane;
+
+
+  var o1=new THREE.Object3D();
+  scene.add(o1);
+
+  var acciaio=THREE.ImageUtils.loadTexture("assets/textures/general/acciaio.jpg" )
+   var acciaioscuro=THREE.ImageUtils.loadTexture("assets/textures/general/acciaioscuro.jpg" )
+
+var cubeGeometryBase = new THREE.BoxGeometry(0.7,1.65,0.04);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:cassetti});
+      var BanconeAngolare = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      BanconeAngolare.position.set(0,0.82,0.025);
+      BanconeAngolare.rotation.x=Math.PI/2;
+     o1.add(BanconeAngolare);
+
+
+var cylinderGeometry1 = new THREE.CylinderGeometry(0.35,0.35,0.03991,80);
+      var cylinderMaterial = new THREE.MeshLambertMaterial({map:cassetti});
+      var rubinetto = new THREE.Mesh(cylinderGeometry1,cylinderMaterial);
+      rubinetto.position.set(0,0.82,-0.8);
+      o1.add(rubinetto);
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.7,1.65,0.03995);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:cassetti});
+      var BanconeAngolare = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      BanconeAngolare.position.set(0.81,0.82,-0.8);
+      BanconeAngolare.rotation.x=Math.PI/2;
+      BanconeAngolare.rotation.z=Math.PI/2;
+     o1.add(BanconeAngolare);
+
+
+
+//gambe tavolo sx
+
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.8,0.07,0.07);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.1,0.72);
+      o1.add(piede);
+      
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.05,0.05);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,0.72);
+      piede.rotation.z=Math.PI/2;
+      o1.add(piede);
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.6,0.02);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,0.72);
+      piede.rotation.z=Math.PI/2;
+       o1.add(piede);
+
+//gambe tavolo centro
+  
+      var cubeGeometryBase = new THREE.BoxGeometry(0.8,0.07,0.07);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.1,-0.72);
+      o1.add(piede);
+      
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.05,0.05);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,-0.72);
+      piede.rotation.z=Math.PI/2;
+      o1.add(piede);
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.6,0.02);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,-0.72);
+      piede.rotation.z=Math.PI/2;
+       o1.add(piede);
+
+       //gambe tavolo centro
+  
+      var cubeGeometryBase = new THREE.BoxGeometry(0.8,0.07,0.07);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.1,-0.72);
+      piede.rotation.y=Math.PI/2;
+      o1.add(piede);
+      
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.05,0.05);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,-0.72);
+      piede.rotation.z=Math.PI/2;
+      piede.rotation.y=Math.PI/2;
+      o1.add(piede);
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.6,0.02);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(0,0.44,-0.72);
+      piede.rotation.z=Math.PI/2;
+      piede.rotation.y=Math.PI/2;
+       o1.add(piede);
+
+       //gambe tavolo centro
+  
+      var cubeGeometryBase = new THREE.BoxGeometry(0.8,0.07,0.07);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(1.2,0.1,-0.76);
+      piede.rotation.y=Math.PI/2;
+      o1.add(piede);
+      
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.05,0.05);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(1.2,0.44,-0.76);
+      piede.rotation.z=Math.PI/2;
+      piede.rotation.y=Math.PI/2;
+      o1.add(piede);
+
+      var cubeGeometryBase = new THREE.BoxGeometry(0.75,0.6,0.02);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var piede = new THREE.Mesh(cubeGeometryBase,cubeMaterial);
+      piede.position.set(1.2,0.44,-0.76);
+      piede.rotation.z=Math.PI/2;
+      piede.rotation.y=Math.PI/2;
+       o1.add(piede);
+
+var o2= new THREE.Object3D();
+o1.add(o2);
+  o2.scale.set(0.029,0.029,0.029);
+       //cassettiere
+
+var cubeGeometryBase = new THREE.BoxGeometry(20,19,20);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var CassettiBancoLab = new THREE.Mesh(cubeGeometryBase,cubeMaterial); 
+      CassettiBancoLab.position.set(0,8,-47);
+      o2.add(CassettiBancoLab);
+
+
+      var cubeGeometryBase = new THREE.BoxGeometry(10,4,17);
+      var cubeMaterial = new THREE.MeshLambertMaterial({map:cassetti});
+      var CassettiBancoLab = new THREE.Mesh(cubeGeometryBase,cubeMaterial); 
+      CassettiBancoLab.position.set(6,14,-47);
+      o2.add(CassettiBancoLab);
+
+
+       var cubeGeometryBase = new THREE.BoxGeometry(10,4,17);
+      var CassettiBancoLab = new THREE.Mesh(cubeGeometryBase,cubeMaterial); 
+      CassettiBancoLab.position.set(6,2,-47);
+      o2.add(CassettiBancoLab);
+
+       var cubeGeometryBase = new THREE.BoxGeometry(10,4,17);
+      var CassettiBancoLab = new THREE.Mesh(cubeGeometryBase,cubeMaterial); 
+      CassettiBancoLab.position.set(6,8,-47);
+      o2.add(CassettiBancoLab);
+
+      //maniglie
+
+      var cylinderGeometry1 = new THREE.CylinderGeometry(0.5,0.5,10,80);
+      var cylinderMaterial = new THREE.MeshLambertMaterial({map:acciaio});
+      var maniglia = new THREE.Mesh(cylinderGeometry1,cylinderMaterial);
+      maniglia.position.set(11,14,-47);
+      maniglia.rotation.x=Math.PI/2;
+      o2.add(maniglia);
+
+      var maniglia = new THREE.Mesh(cylinderGeometry1,cylinderMaterial);
+      maniglia.position.set(11,8,-47);
+      maniglia.rotation.x=Math.PI/2;
+      o2.add(maniglia);
+
+
+      var maniglia = new THREE.Mesh(cylinderGeometry1,cylinderMaterial);
+      maniglia.position.set(11,2,-47);
+      maniglia.rotation.x=Math.PI/2;
+      o2.add(maniglia);
+
+      // position and point the camera to the center of the scene
+      camera.position.set(5,5,-5);
+      camera.up = new THREE.Vector3(0,1,0);
+      camera.lookAt(scene.position);
+
+      // add subtle ambient lighting
+      var ambientLight = new THREE.AmbientLight(0x0c0c0c);
+      scene.add(ambientLight);
+
+      var spotLight = new THREE.SpotLight( 0xffffff );
+      spotLight.position.set(80,80,10);
+      scene.add(spotLight);
+
+
+
+      var spotLight = new THREE.SpotLight( 0xCCCCCC );
+      spotLight.position.set(200,200,10);
+      scene.add(spotLight);
+
+
+
+     
+     
+       
+     
+
+      // add the output of the renderer to the html element
+      $('body').append(renderer.domElement);
+
+      // call the render function
+      var step = 0;
+
+      
+
+            render();
+
+      function render() {
+        stats.update();
+        trackballControls.update();
+        
+
+        // render using requestAnimationFrame
+        requestAnimationFrame(render);
+        renderer.render(scene, camera);
+      }
+
+      function initStats() {
+        var stats = new Stats();
+        stats.setMode(0); // 0: fps, 1: ms
+        $('body').append(stats.domElement);
+        return stats;
+      }
+
+      $('.dg.main').on('mousedown', function (event) {
+        event.stopPropagation();
+      });
+
+    });
+
+  </script>  
+ </body>
+</html>

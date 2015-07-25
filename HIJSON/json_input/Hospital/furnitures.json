@@ -1,0 +1,4769 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+    {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.4, -0.8], [-0.4, 0.8], [0.4, 0.8], [0.4, -0.8] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "CellaFrigo",
+                "height": 3,
+                "tVector": [0.6, 4, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [0.6, 5.65, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Banco",
+                "height": 3,
+                "tVector": [0.6, 7.3, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [0.2, 7.3, 1.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Secchio",
+                "height": 3,
+                "tVector": [2.4, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconePiccLab",
+                "height": 3,
+                "tVector": [3.2, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Frigorifero",
+                "height": 3,
+                "tVector": [4, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "CappaVirus",
+                "height": 3,
+                "tVector": [5.8, 7.7, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Secchio",
+                "height": 3,
+                "tVector": [7.1, 7.7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [8.3, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                 "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Cappa",
+                "height": 3,
+                "tVector": [10.2, 7.5, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Banco",
+                "height": 3,
+                "tVector": [12, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [13.65, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                 "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Cappa",
+                "height": 3,
+                "tVector": [15.7, 7.5, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 4.7, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettiAlti",
+                "height": 3,
+                "tVector": [16.4, 4.7, 1.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [16.4, 4.6, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [16, 4.6, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [16.4, 4.1, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "height": 3,
+                "tVector": [16.4, 5.2, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 2.9, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [16.4, 2.9, 1.5],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [16.4, 2.9, 1.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Centrifuga",
+                "height": 3,
+                "tVector": [16.4, 2.5, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Microscopio",
+                "height": 3,
+                "tVector": [16.4, 3.3, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "PortaProvette",
+                "height": 3,
+                "tVector": [16.4, 3.7, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "height": 3,
+                "tVector": [16.4, 3.4, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "height": 3,
+                "tVector": [16.4, 2.4, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 1.1, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettiAlti",
+                "height": 3,
+                "tVector": [16.4, 1.1, 1.80],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [16.4, 1, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [16, 1, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "height": 3,
+                "tVector": [16.4, 1.6, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [16.4, 0.5, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+    {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeLab",
+                "height": 3,
+                "tVector": [8, 3.6, 0],
+                "rVector": [0, 0, 0]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [8.5, 4.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [8.5, 3.95, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [8.5, 2.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [7.5, 3.1, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [7.5, 3.8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeLab",
+                "height": 3,
+                "tVector": [12, 3.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [11.5, 4.6, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [11.5, 3.95, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [11.5, 2.5, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [12.5, 3.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [12.5, 3.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [1.4, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2.6, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.2, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.8, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [4.4, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [0.4, 1.9, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [0.4, 0.9, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [3.6, 0.4, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [0.6, 6.7, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [0.6, 6.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [0.6, 5.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [0.6, 4.9, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.4, 6.7, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.4, 6.1, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.4, 5.5, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.4, 4.9, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.4, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2.8, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2.2, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [1.6, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "Panca",
+                "tVector": [0.5, 0.8, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "Panca",
+                "tVector": [0.5, 1.8, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "Panca",
+                "tVector": [2, 2.5, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "Panca",
+                "tVector": [2, 3.5, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_mic_emo",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_sterility",
+                "class": "Panca",
+                "tVector": [2, 4.5, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Archivio",
+                "tVector": [1.6, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Archivio",
+                "tVector": [1, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Archivio",
+                "tVector": [2.2, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Archivio",
+                "tVector": [2.8, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Scaffale",
+                "tVector": [3.5, 1.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "archive_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_arc",
+                "class": "Scaffale",
+                "tVector": [0.5, 1.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+
+        {
+            "id": "acceptation_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_acceptation",
+                "class": "Archivio",
+                "tVector": [3.3, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "acceptation_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_acceptation",
+                "class": "Archivio",
+                "tVector": [2.7, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "acceptation_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_acceptation",
+                "class": "Mensola",
+                "tVector": [3.7, 2.1, 1.60],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "acceptation_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_acceptation",
+                "class": "Mensola",
+                "tVector": [3.7, 2.6, 1.60],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+          "id": "acceptation",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_acceptation",
+                "class": "ScrivaniaUfficio",
+                "tVector": [2.8, 4.9, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "acceptation",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_acceptation",
+                "class": "MonitorPc",
+                "tVector": [2.2, 4.7, 0.8],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "acceptation",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_acceptation",
+                "class": "TorrePc",
+                "tVector": [2.3, 4.2, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_acceptation",
+                "class": "Cestino",
+                "tVector": [3.6, 5.5, 0.001],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "acceptation",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_acceptation",
+                "class": "Chair",
+                "tVector": [2.5, 4.7, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.4, -0.8], [-0.4, 0.8], [0.4, 0.8], [0.4, -0.8] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CellaFrigo",
+                "tVector": [8.5, 11.1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Banco",
+                "tVector": [6.85, 11.1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Frigorifero",
+                "tVector": [5.65, 11.1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BanconeAngolare",
+                "tVector": [1.1, 10.7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [0.9, 11.3, 0.8],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [0.9, 10.8, 0],
+                "rVector": [0, 0, 0]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [0.5, 11.2, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Microscopio",
+                "height": 3,
+                "tVector": [1.6, 10.2, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "PortaProvette",
+                "height": 3,
+                "tVector": [1.6, 10, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Armadietto",
+                "tVector": [1.8, 10.5, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "ArmadiettiAlti",
+                "tVector": [0.5, 10.4, 1.6],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BanconeAngolare",
+                "tVector": [1.1, 7.5, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [0.9, 8.1, 0.8],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [0.9,7.6, 0],
+                "rVector": [0, 0, 0]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [0.5, 8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Bilancia",
+                "height": 3,
+                "tVector": [1.65, 7, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "PortaProvette",
+                "height": 3,
+                "tVector": [1.65, 7.2, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Armadietto",
+                "tVector": [1.8, 7.4, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Mensola",
+                "tVector": [0.2, 7.2, 1.8],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Mensola",
+                "tVector": [0.2, 7.2, 1.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BanconeAngolare",
+                "tVector": [1.1, 4.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [0.9, 4.9, 0.8],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [0.9, 4.4, 0],
+                "rVector": [0, 0, 0]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [0.5, 4.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Centrifuga",
+                "height": 3,
+                "tVector": [1.65, 3.8, 0.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Microscopio",
+                "height": 3,
+                "tVector": [1.6, 4.75, 0.8],
+                "rVector": [0, 0, -135]
+
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "ArmadiettiAlti",
+                "tVector": [0.5, 4, 1.6],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BancoAcciaioAngolare",
+                "tVector": [1.1, 1, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Microscopio",
+                "tVector": [1.3, 0.7, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Bilancia",
+                "tVector": [0.6, 1.1, 0.8],
+                "rVector": [0, 0, 0 ]
+            }
+        },
+                {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Armadietto",
+                "tVector": [0.8, 0.8, 0],
+                "rVector": [0, 0, 0 ]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "PortaProvette",
+                "tVector": [0.6, 1.4, 0.8],
+                "rVector": [0, 0, 0 ]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Cappa",
+                "tVector": [3 , 1, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BancoLavandino",
+                "tVector": [4.8 , 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Banco",
+                "tVector": [6.3 , 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CentrifugaGrande",
+                "tVector": [6.5 , 0.6, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "PompaVuoto",
+                "tVector": [5.9 , 0.4, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "PompaVuoto",
+                "tVector": [5.6 , 0.4, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "OggettiLab",
+                "tVector": [5.6 , 0.7, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                 "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "Cappa",
+                "tVector": [ 8.5, 1.2, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BanconeLab",
+                "tVector": [ 5.5, 4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "OggettiLab",
+                "tVector": [4.5 , 4.5, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CassettiBancoLab",
+                "tVector": [ 5.5, 4.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CassettiBancoLab",
+                "tVector": [ 5.5, 3.5, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "BanconeLab",
+                "tVector": [ 5.5, 8, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "OggettiLab",
+                "tVector": [6.5 , 7.5, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "OggettiLab",
+                "tVector": [4.5 , 8.5, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CassettiBancoLab",
+                "tVector": [ 5.5, 8.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "micro_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_micro",
+                "class": "CassettiBancoLab",
+                "tVector": [ 5.5, 7.5, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [0.7, 0.35, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [1.5, 0.35, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [0.7, 3.7, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [1.5, 3.7, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.8, 2.1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.8, 0.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [0.7, 0.35, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "SecchioBagno",
+                "tVector": [1.1, 0.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Asciugamani",
+                "tVector": [0.25, 1.2, 1.4],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [1.7, 0.35, 0.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [0.7, 3.7, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "SecchioBagno",
+                "tVector": [1.1, 3.7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Asciugamani",
+                "tVector": [0.25, 3.4, 1.4],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [1.7, 3.7, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.8, 3.4, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [3.4, 3.05, 0.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.8, 2.1, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [3.4, 1.65, 0.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.8, 0.7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [3.4, 0.25, 0.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [2.2, 4.6, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [1.75, 5, 0.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [0.7, 4.6, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [0.25, 5, 0.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Wc",
+                "tVector": [3.7, 4.6, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "RotoloCarta",
+                "tVector": [3.25, 5, 0.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [0.7, 8, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [1.7, 8, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Lavandino",
+                "tVector": [2.7, 8, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "SecchioBagno",
+                "tVector": [3.3, 7.9, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Asciugamani",
+                "tVector": [4.1, 7.5, 1.4],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_wc",
+                "class": "Asciugamani",
+                "tVector": [4.1, 6.8, 1.4],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Wc",
+                "tVector": [2, 0.5, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "RotoloCarta",
+                "tVector": [1.6, 0.25, 0.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Asciugamani",
+                "tVector": [0.5, 2.2, 1.4],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Lavandino",
+                "tVector": [0.6,1.4, 0.8],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "SecchioBagno",
+                "tVector": [0.5, 0.5, 0],
+                "rVector": [0, 0, 45]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Wc",
+                "tVector": [6, 0.5, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "RotoloCarta",
+                "tVector": [6.4, 0.25, 0.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Asciugamani",
+                "tVector": [7, 2.2, 1.4],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "Lavandino",
+                "tVector": [6.9,1.4, 0.8],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "bathroom_uff_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_uff",
+                "class": "SecchioBagno",
+                "tVector": [7, 0.5, 0],
+                "rVector": [0, 0, -225]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "ScrivaniaUfficio",
+                "tVector": [1.8, 4, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "MonitorPc",
+                "tVector": [1.5, 4.6, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "TorrePc",
+                "tVector": [1.1, 4.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Cestino",
+                "tVector": [2.3, 4.4, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Chair",
+                "tVector": [1.5, 4.45, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [0.6, 6.75, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [1.4, 6.75, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [2.1, 3.4, 1.4],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [2.1, 3.4, 1.8],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "ScrivaniaUfficio",
+                "tVector": [6.3, 4, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "MonitorPc",
+                "tVector": [6.9, 4.6, 0.8],
+                "rVector": [0, 0, -135]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "TorrePc",
+                "tVector": [5.6, 4.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_01",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Cestino",
+                "tVector": [5.9, 4.5, 0.001],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Chair",
+                "tVector": [6.4, 4.25, 0],
+                "rVector": [0, 0, -45]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [5.4, 6.75, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [6.2, 6.75, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [7.2, 6.25, 1.5],
+                "rVector": [0, 0, 180]
+            }
+        },
+
+        {
+          "id": "office_02",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [7.2, 5.25, 1.5],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "ScrivaniaUfficio",
+                "tVector": [5.6, 8.45, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "MonitorPc",
+                "tVector": [5, 8.5, 0.8],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "TorrePc",
+                "tVector": [5, 7.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Cestino",
+                "tVector": [5, 8.9, 0.001],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Chair",
+                "tVector": [5.3, 8.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [6.9, 7.4, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [6.1, 10.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Archivio",
+                "tVector": [6.85, 10.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        
+        {
+          "id": "office_03",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [5.8, 7.4, 1.5],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "ScrivaniaUfficio",
+                "tVector": [1.1, 8.2, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "MonitorPc",
+                "tVector": [1.8, 8.5, 0.8],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "TorrePc",
+                "tVector": [1.7, 8.9, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Cestino",
+                "tVector": [1.8, 7.9, 0.001],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Chair",
+                "tVector": [1.5, 8.5, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Libreria",
+                "tVector": [2.1, 10.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Archivio",
+                "tVector": [0.6, 10.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        
+        {
+          "id": "office_04",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": 
+                
+                    [0, 0]
+                
+            },
+            "properties": 
+            {
+                "height" : 1,
+                "parent": "room_uff",
+                "class": "Mensola",
+                "tVector": [0.3, 9.5, 1.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconeMedLab",
+                "tVector": [1.1, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "ArmadiettiAlti",
+                "tVector": [1.1, 11.4, 1.6],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "MonitorPcAnalizzatore",
+                "tVector": [1, 11.3, 0.85],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "TorrePc",
+                "tVector": [0.6, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Chair",
+                "tVector": [1, 11.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Cestino",
+                "tVector": [1.5, 11.2, 0.001],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Analizzatrice",
+                "tVector": [1.7, 11.3, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "OggettiLab",
+                "tVector": [2.3, 11.2, 0.85],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Centrifuga",
+                "tVector": [2.4, 10.6, 0.85],
+                "rVector": [0, 0, -180]
+            }
+        },
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Agitatore",
+                "tVector": [2.4, 10.2, 0.85],
+                "rVector": [0, 0, -180]
+            }
+        },
+
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Microscopio",
+                "tVector": [2.6, 9.5, 0.85],
+                "rVector": [0, 0, -135]
+            }
+        },
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "PortaProvetteSangue",
+                "tVector": [2.9, 9.3, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Microscopio",
+                "tVector": [3.2, 9.5, 0.85],
+                "rVector": [0, 0, -45]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Bilancia",
+                "tVector": [3.4, 10, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CentrifugaGrande",
+                "tVector": [3.5, 11.1, 0.85],
+                "rVector": [0, 0, -45]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Mensola",
+                "tVector": [4.6, 11.65, 1.6],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "MonitorPc",
+                "tVector": [4.6, 11.3, 0.85],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "TorrePc",
+                "tVector": [4.2, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Chair",
+                "tVector": [4.6, 11.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "ArmCass",
+                "tVector": [5.2, 11.2, 0.001],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Centrifuga",
+                "tVector": [6, 11.2, 0.85],
+                "rVector": [0, 0, -135]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "OggettiLab",
+                "tVector": [6.1, 10.5, 0.85],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Microscopio",
+                "tVector": [6.2, 9.5, 0.85],
+                "rVector": [0, 0, -135]
+            }
+        },
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "PortaProvetteSangue",
+                "tVector": [6.5, 9.3, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Microscopio",
+                "tVector": [6.8, 9.5, 0.85],
+                "rVector": [0, 0, -45]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.9], [-0.9, 0.9], [0.8, 0.9], [0.8, -0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "TavoloTondo",
+                "tVector": [2.9, 9.85, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconeMedLab",
+                "tVector": [4.7, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.9, -0.9], [-0.9, 0.9], [0.8, 0.9], [0.8, -0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "TavoloTondo",
+                "tVector": [6.5, 9.85, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Bilancia",
+                "tVector": [7, 10.4, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "PortaProvette",
+                "tVector": [7, 10.7, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconeMedLab",
+                "tVector": [8.3, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "ArmadiettiAlti",
+                "tVector": [8.2, 11.4, 1.6],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "MonitorPcAnalizzatore",
+                "tVector": [8.2, 11.3, 0.85],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "TorrePc",
+                "tVector": [7.8, 11.3, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Chair",
+                "tVector": [8.2, 11.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Cestino",
+                "tVector": [8.7, 11.2, 0.001],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Analizzatrice",
+                "tVector": [7.6, 11.3, 0.8],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconeLab",
+                "tVector": [5.5, 7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CassettiBancoLab",
+                "tVector": [5.5, 6.5, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CassettiBancoLab",
+                "tVector": [5.5, 7.5, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BancoLavandino",
+                "tVector": [3.65, 7, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "OggettiLab",
+                "tVector": [5, 6.4, 0.85],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Agitatore",
+                "tVector": [6, 7.6, 0.85],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconeLab",
+                "tVector": [4, 1.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CassettiBancoLab",
+                "tVector": [4.5, 1.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CassettiBancoLab",
+                "tVector": [3.5, 1.8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "OggettiLab",
+                "tVector": [3.6, 1.3, 0.85],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Bilancia",
+                "tVector": [4.4, 2.3, 0.85],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Agitatore",
+                "tVector": [3.6, 2.3, 0.85],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BancoLavandino",
+                "tVector": [4, 3.65, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Cappa",
+                "tVector": [0.9, 1.3, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Secchio",
+                "tVector": [0.6, 2.55, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Secchio",
+                "tVector": [11.2, 5.55, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.4, -0.8], [-0.4, 0.8], [0.4, 0.8], [0.4, -0.8] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "CellaFrigo",
+                "tVector": [11.1, 4, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Secchio",
+                "tVector": [11.2, 2.2, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BancoLavandino",
+                "tVector": [11.2, 1, 0],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "ArmadiettiAlti",
+                "tVector": [11.3, 1, 1.60],
+                "rVector": [0, 0, -180]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "BanconePiccLab",
+                "tVector": [9.4, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "Frigorifero",
+                "tVector": [8.6, 0.6, 0],
+                "rVector": [0, 0, 90]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "PosterEma1",
+                "tVector": [0.2, 6, 1.2],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "ema_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_ema",
+                "class": "PosterEma2",
+                "tVector": [11.7, 6.5, 1.2],
+                "rVector": [0, 0, 180]
+            }
+        }
+
+
+
+
+    ]
+}

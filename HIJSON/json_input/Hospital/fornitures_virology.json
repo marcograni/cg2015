@@ -1,0 +1,1066 @@
+{
+    "id": "furnitures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        
+{
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.4, -0.8], [-0.4, 0.8], [0.4, 0.8], [0.4, -0.8] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "CellaFrigo",
+                "height": 3,
+                "tVector": [0.6, 4, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [0.6, 5.65, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Banco",
+                "height": 3,
+                "tVector": [0.6, 7.3, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [0.2, 7.3, 1.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Secchio",
+                "height": 3,
+                "tVector": [2.4, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconePiccLab",
+                "height": 3,
+                "tVector": [3.2, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "IncubatriceCO2",
+                "height": 3,
+                "tVector": [3.2, 7.8, 0.85],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "fridge_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.4], [-0.35, 0.4], [0.35, 0.4], [0.35, -0.4] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Frigorifero",
+                "height": 3,
+                "tVector": [4, 7.8, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "CappaVirus",
+                "height": 3,
+                "tVector": [5.8, 7.7, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Secchio",
+                "height": 3,
+                "tVector": [7.1, 7.7, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [8.3, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                 "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Cappa",
+                "height": 3,
+                "tVector": [10.2, 7.5, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Banco",
+                "height": 3,
+                "tVector": [12, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.82], [-0.35, 0.82], [0.35, 0.82], [0.35, -0.82] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BancoLavandino",
+                "height": 3,
+                "tVector": [13.65, 7.8, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                 "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.65, -1], [-0.65, 1], [0.65, 1], [0.65, -1] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Cappa",
+                "height": 3,
+                "tVector": [15.7, 7.5, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.89] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 4.7, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettiAlti",
+                "height": 3,
+                "tVector": [16.4, 4.7, 1.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [16.4, 4.6, 0.85],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [16, 4.6, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [16.4, 4.1, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "height": 3,
+                "tVector": [16.4, 5.2, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 2.9, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [16.4, 2.9, 1.5],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Mensola",
+                "height": 3,
+                "tVector": [16.4, 2.9, 1.8],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Centrifuga",
+                "height": 3,
+                "tVector": [16.4, 2.5, 0.85],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Microscopio",
+                "height": 3,
+                "tVector": [16.4, 3.3, 0.85],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "PortaProvette",
+                "height": 3,
+                "tVector": [16.4, 3.7, 0.85],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "height": 3,
+                "tVector": [16.4, 3.4, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "height": 3,
+                "tVector": [16.4, 2.4, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.35, -0.9], [0.35, -0.9], [0.35, 0.9], [-0.35, 0.9] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeMedLab",
+                "height": 3,
+                "tVector": [16.4, 1.1, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettiAlti",
+                "height": 3,
+                "tVector": [16.4, 1.1, 1.80],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "MonitorPc",
+                "height": 3,
+                "tVector": [16.4, 1, 0.85],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Chair",
+                "height": 3,
+                "tVector": [16, 1, 0],
+                "rVector": [0, 0, -90]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "height": 3,
+                "tVector": [16.4, 1.6, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "TorrePc",
+                "height": 3,
+                "tVector": [16.4, 0.5, 0],
+                "rVector": [0, 0, -180]
+
+            }
+        },
+    {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+           {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeLab",
+                "height": 3,
+                "tVector": [8, 3.6, 0],
+                "rVector": [0, 0, 0]
+
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [8.5, 4.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [8.5, 3.95, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [8.5, 2.5, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [7.5, 3.1, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [7.5, 3.8, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+               "type": "Polygon",
+                "coordinates": 
+                [
+                   [ [-0.8, -1.75], [-0.8, 1.75], [0.8, 1.75], [0.8, -1.75] ]
+                ]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "BanconeLab",
+                "height": 3,
+                "tVector": [12, 3.6, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [11.5, 4.6, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [11.5, 3.95, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [11.5, 2.5, 0],
+                "rVector": [0, 0, 180]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmCass",
+                "tVector": [12.5, 3.1, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+         {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Armadietto",
+                "tVector": [12.5, 3.8, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "PosterVir1",
+                "tVector": [7.6, 8.2, 1.5],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "PosterVir2",
+                "tVector": [5.2, 3.3, 1.5],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [1.4, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [2.6, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.2, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [3.8, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "ArmadiettoSpogliatoio",
+                "tVector": [4.4, 2.6, 0],
+                "rVector": [0, 0, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [0.4, 1.9, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [0.4, 0.9, 0],
+                "rVector": [0, -90, -90]
+            }
+        },
+        {
+            "id": "sterility_room_vir",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_0.1",
+                "class": "Panca",
+                "tVector": [3.6, 0.4, 0],
+                "rVector": [90, 0, 0]
+            }
+        },
+        {
+            "id": "virology_room",
+            "type": "Feature",
+            "geometry": 
+            {
+                "type": "Point",
+                "coordinates": [0, 0]
+            },
+            "properties": 
+            {
+                "parent": "room_corr",
+                "class": "CartelloVirologia",
+                "tVector": [2.9, 2.25, 1.5],
+                "rVector": [0, 0, -90]
+            }
+        }
+        
+    ]
+}

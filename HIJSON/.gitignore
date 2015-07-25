@@ -1,0 +1,9 @@
+/public/libs/bundle.js
+/node_modules
+npm-debug.log
+.DS_Store
+Thumbs.db
+public/libs/bundle.js
+bundle.js.map
+relazione
+geojson_output

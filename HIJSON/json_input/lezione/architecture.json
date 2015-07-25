@@ -1,0 +1,150 @@
+{
+    "id": "architectures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "type": "Feature",
+            "id": "level_0",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [ 
+                    [ [0, 0], [12, 0], [12, 8.4], [0, 8.4], [0, 0] ]
+                ]  
+            },
+            "properties": 
+            {
+                "class": "level",
+                "parent": "building",
+                "description": "Mura perimetrali appartamento",
+                "height": 3.5,
+                "thickness": 0.3,
+                "tVector": [0, 0, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+        {
+              "type": "Feature",
+              "id": "cucina",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [12, 0], [12, 8.4], [0,8.4], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "cucina",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+        
+        {
+              "type": "Feature",
+              "id": "cucina_sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall cucina-esterno",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["cucina"]
+              }
+        },
+        
+        {
+              "type": "Feature",
+              "id": "camera_1-sud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [12, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall 2camera_1 esterno nord",
+                    "tVector": [0, 8.4, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["camera_1"]
+              }
+        },
+        
+        {
+              "type": "Feature",
+              "id": "camera_2-nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall 2camera_1 esterno nord",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["camera_2"]
+              }
+        },
+       
+        {
+              "type": "Feature",
+              "id": "soggiorno-nord",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [8.4, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall 2camera_1 esterno nord",
+                    "tVector": [12, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["soggiorno"]
+              }
+        }
+        
+        
+        
+        
+    ]
+}
