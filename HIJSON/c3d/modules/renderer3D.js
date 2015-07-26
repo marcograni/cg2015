@@ -45,15 +45,15 @@ var self = module.exports = {
 	    renderer.shadowMapEnabled = false;
 	    container3D.append(renderer.domElement);
 
-	    var ambiColor = "#1c1c1c";
+	    var ambiColor = "#333333";
 	    var ambientLight = new THREE.AmbientLight(ambiColor);
 	    scene.add(ambientLight);
 	    
-	    var spotLight = new THREE.SpotLight(0xFFFFFF);
+	    var spotLight = new THREE.SpotLight(0x888888);
 	    spotLight.position.set(-40,80,-50);
 	    scene.add( spotLight );
 	    
-	    var spotLight2 = new THREE.SpotLight(0xFFFFFF);
+	    var spotLight2 = new THREE.SpotLight(0x888888);
 	    spotLight2.position.set(50,80,60);
 	    scene.add( spotLight2 );
 
